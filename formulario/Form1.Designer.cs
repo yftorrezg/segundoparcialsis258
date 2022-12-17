@@ -1,17 +1,17 @@
 ﻿
-namespace formulario
+namespace Formulario
 {
     partial class Form1
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Variable del diseñador necesaria.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Limpiar los recursos que se estén usando.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,169 +21,147 @@ namespace formulario
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Código generado por el Diseñador de Windows Forms
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
         /// </summary>
         private void InitializeComponent()
         {
-            this.IDAmbiente = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.nit = new System.Windows.Forms.Label();
-            this.cufd = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.modalidad = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.cantidad = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.btncotizar = new System.Windows.Forms.Button();
+            this.txtMoneda = new System.Windows.Forms.TextBox();
+            this.id = new System.Windows.Forms.Label();
+            this.tb_id = new System.Windows.Forms.TextBox();
+            this.nit = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.modalidad = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cliente = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // IDAmbiente
+            // button1
             // 
-            this.IDAmbiente.AutoSize = true;
-            this.IDAmbiente.Location = new System.Drawing.Point(44, 76);
-            this.IDAmbiente.Name = "IDAmbiente";
-            this.IDAmbiente.Size = new System.Drawing.Size(140, 32);
-            this.IDAmbiente.TabIndex = 0;
-            this.IDAmbiente.Text = "IDAmbiente";
-            this.IDAmbiente.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(205, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 39);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(205, 151);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 39);
-            this.textBox2.TabIndex = 2;
-            // 
-            // nit
-            // 
-            this.nit.AutoSize = true;
-            this.nit.Location = new System.Drawing.Point(56, 151);
-            this.nit.Name = "nit";
-            this.nit.Size = new System.Drawing.Size(42, 32);
-            this.nit.TabIndex = 3;
-            this.nit.Text = "nit";
-            // 
-            // cufd
-            // 
-            this.cufd.AutoSize = true;
-            this.cufd.Location = new System.Drawing.Point(56, 237);
-            this.cufd.Name = "cufd";
-            this.cufd.Size = new System.Drawing.Size(65, 32);
-            this.cufd.TabIndex = 4;
-            this.cufd.Text = "Cufd";
-            this.cufd.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(205, 237);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 39);
-            this.textBox3.TabIndex = 5;
-            // 
-            // modalidad
-            // 
-            this.modalidad.AutoSize = true;
-            this.modalidad.Location = new System.Drawing.Point(44, 329);
-            this.modalidad.Name = "modalidad";
-            this.modalidad.Size = new System.Drawing.Size(128, 32);
-            this.modalidad.TabIndex = 6;
-            this.modalidad.Text = "Modalidad";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(205, 329);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(200, 39);
-            this.textBox4.TabIndex = 7;
-            // 
-            // cantidad
-            // 
-            this.cantidad.AutoSize = true;
-            this.cantidad.Location = new System.Drawing.Point(439, 76);
-            this.cantidad.Name = "cantidad";
-            this.cantidad.Size = new System.Drawing.Size(105, 32);
-            this.cantidad.TabIndex = 8;
-            this.cantidad.Text = "cantidad";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(550, 76);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(192, 39);
-            this.textBox5.TabIndex = 9;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(550, 151);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(200, 39);
-            this.textBox6.TabIndex = 10;
+            this.button1.Location = new System.Drawing.Point(199, 512);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 51);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Emitir";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(889, 76);
+            this.label1.Location = new System.Drawing.Point(651, 147);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 32);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "cotizar";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            this.label1.Size = new System.Drawing.Size(96, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Moneda:";
             // 
-            // comboBox1
+            // txtMoneda
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(463, 513);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(170, 40);
-            this.comboBox1.TabIndex = 12;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.txtMoneda.Location = new System.Drawing.Point(790, 147);
+            this.txtMoneda.Name = "txtMoneda";
+            this.txtMoneda.Size = new System.Drawing.Size(100, 31);
+            this.txtMoneda.TabIndex = 2;
             // 
-            // btncotizar
+            // id
             // 
-            this.btncotizar.Location = new System.Drawing.Point(889, 222);
-            this.btncotizar.Name = "btncotizar";
-            this.btncotizar.Size = new System.Drawing.Size(150, 46);
-            this.btncotizar.TabIndex = 13;
-            this.btncotizar.Text = "cotizar";
-            this.btncotizar.UseVisualStyleBackColor = true;
+            this.id.AutoSize = true;
+            this.id.Location = new System.Drawing.Point(102, 187);
+            this.id.Name = "id";
+            this.id.Size = new System.Drawing.Size(134, 25);
+            this.id.TabIndex = 3;
+            this.id.Text = "ID_Ambiente";
+            // 
+            // tb_id
+            // 
+            this.tb_id.Location = new System.Drawing.Point(289, 181);
+            this.tb_id.Name = "tb_id";
+            this.tb_id.Size = new System.Drawing.Size(100, 31);
+            this.tb_id.TabIndex = 4;
+            this.tb_id.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // nit
+            // 
+            this.nit.Location = new System.Drawing.Point(289, 255);
+            this.nit.Name = "nit";
+            this.nit.Size = new System.Drawing.Size(100, 31);
+            this.nit.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(102, 255);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 25);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "nit";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(102, 320);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(111, 25);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "modalidad";
+            // 
+            // modalidad
+            // 
+            this.modalidad.Location = new System.Drawing.Point(289, 320);
+            this.modalidad.Name = "modalidad";
+            this.modalidad.Size = new System.Drawing.Size(100, 31);
+            this.modalidad.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(102, 411);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(160, 25);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Nombre Cliente";
+            // 
+            // cliente
+            // 
+            this.cliente.Location = new System.Drawing.Point(289, 411);
+            this.cliente.Name = "cliente";
+            this.cliente.Size = new System.Drawing.Size(100, 31);
+            this.cliente.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(167, 94);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(111, 25);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "FACTURA";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1107, 656);
-            this.Controls.Add(this.btncotizar);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.cantidad);
-            this.Controls.Add(this.textBox4);
+            this.ClientSize = new System.Drawing.Size(1090, 728);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.cliente);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.modalidad);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.cufd);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.nit);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.IDAmbiente);
+            this.Controls.Add(this.tb_id);
+            this.Controls.Add(this.id);
+            this.Controls.Add(this.txtMoneda);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,20 +169,18 @@ namespace formulario
 
         #endregion
 
-        private System.Windows.Forms.Label IDAmbiente;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label nit;
-        private System.Windows.Forms.Label cufd;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label modalidad;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label cantidad;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button btncotizar;
+        private System.Windows.Forms.TextBox txtMoneda;
+        private System.Windows.Forms.Label id;
+        private System.Windows.Forms.TextBox tb_id;
+        private System.Windows.Forms.TextBox nit;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox modalidad;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox cliente;
+        private System.Windows.Forms.Label label5;
     }
 }
 

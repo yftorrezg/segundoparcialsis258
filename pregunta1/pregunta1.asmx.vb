@@ -16,7 +16,7 @@ Public Class pregunta1
     End Function
 
     <WebMethod()>
-    Public Function obtenerCotizacion(ByVal moneda As String) As Double
+    Public Function obtenerCotizacion(ByVal moneda As String) As String
         Dim cotizacion As Double
         If moneda = "US" Then
             cotizacion = 6.96
